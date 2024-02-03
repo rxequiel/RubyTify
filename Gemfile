@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 
 ruby "3.2.3"
-gem "rspotify"
+gem "rspotify" #realizar peticiones a la API spotify
 gem "ffi"
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'rack-cors'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
